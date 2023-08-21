@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8   ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/fb19d06490.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span>
+                    <i class="fa-solid fa-chevron-left fa-lg" style="color: red;"></i>
+                    <span style="font-size: 20px; font-weight: 600; color: #DDE6ED;">kevin savaliya <span
+                            style="color: red;">/</span></span>
+                    <i class="fa-solid fa-chevron-right fa-lg" style="color: red;"></i>
+                </span>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Kevin Savaliya</span> </h1>
+                <p>Full stack developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./media/img.png" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p style="text-align: justify; text-indent: 50px; line-height: normal; word-spacing: normal;">
+                        Hello, I'm Kevin Savaliya. I born in Ahmedabad. Currently, I am Pursuing my Bachelor's Degree of
+                        Computer Engineering at Sal Engineering and Technical Institute . I have to complete my
+                        Bachelor's degree in computer Engineering in 2024. I have to become Full Stack Developer so that
+                        I have improve my self with different Skills and Technical Knowledge.
+                        In this portfolio website I have to deliver my Personal information, CV, Learning path , Skills,
+                        Project etc. In that last contact section should be give all my personal details to contact me
+                        regarding freelancing , build project and technical issues.
+                        I'm very thankful to you for become reach out me and give opportunity to deliver my skills.
+                        <br>
+                        Thank you!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Soft Skills :</li>
+                            <br>
+                            <li><span>Critical Thinking</span></li>
+                            <li><span>Good Decision Maker</span></li>
+                            <li><span>Team Leadership</span></li>
+                            <li><span>Problem Solving Abilities</span></li>
+                            <li><span>Teamwork</span></li>
+                            <br>
+
+                            <ul>
+                                <li> Hard Skills :</li>
+                                <br>
+                                <li><span><i class="fa-brands fa-html5 fa-2xl" style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-brands fa-css3-alt fa-2xl" style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-brands fa-bootstrap fa-2xl" style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-brands fa-square-js fa-2xl" style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-solid fa-c fa-2xl" style="color: #DDE6ED;"></i></span>
+                                </li>
+                                <br>
+                                <li>
+                                    <span><i class="fa-brands fa-java fa-2xl" style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-brands fa-php fa-2xl" style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-brands fa-python fa-2xl" style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-brands fa-react fa-2xl" style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-brands fa-node-js fa-2xl" style="color: #DDE6ED;"></i></span>
+                                </li>
+                                <br>
+                                <li>
+                                    <span><i class="fa-brands fa-square-github fa-2xl"
+                                            style="color: #DDE6ED;"></i></span>
+                                    <span><i class="fa-brands fa-git fa-2xl" style="color: #DDE6ED;"></i></span>
+
+                                </li>
+                            </ul>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Technical Experience :</li>
+                            <br>
+                            <li><span>Internship / Python Django with Data Science / BrainyBeam
+                                    Technologies
+                                </span>
+                                <br><br>
+                                <p style="text-align: justify; text-indent: 10px; line-height: normal; word-spacing: normal;">
+                                Describing the components of Python Programming and their
+                                usages. Python with Django framework should be very easy way to build projects. This
+                                language can be also usage for Data Science Domain. In that this framework can be easily
+                                interact with DataBase.
+                                </p>
+                            </li>
+                            <br>
+                            <li><span>Internship / Python / Praxware Technologies
+                                </span>
+                                <br><br>
+                                <p style="text-align: justify; text-indent: 10px; line-height: normal; word-spacing: normal;">
+                                In that I can learn about Python Programming, their usages in to real life
+                                projects, fundamentals of python, Components of Python. After the completing this
+                                internship into Python, I can build some programs for performing logical operations.
+                                </p>
+                            </li>
+                            <br>
+                            <li><span>Internship / FrontEnd Web Development / Grass Solutions
+                                </span>
+                                <br><br>
+                                <p style="text-align: justify; text-indent: 10px; line-height: normal; word-spacing: normal;">
+                                FrontEnd Web Development can be manage the Frontend of any Website. In that I can learn about
+                                Frontend Languages like – HTML, CSS, JS. In this program I can also learn about Website
+                                deployment using GitHub Platform. In this Internship I can create project in to FrontEnd
+                                Web Development
+                                </p>
+                            </li>
+                            <br>
+                            <li><span>Internship / Python With Django / CreArt Solutions
+                                </span>
+                                <br><br>
+                                <p style="text-align: justify; text-indent: 10px; line-height: normal; word-spacing: normal;">
+                                In this internship I can be able to understand components Python programming
+                                language. And after that taking knowledge into Django framework , who can use for the
+                                connection between FrontEnd with Database.
+                                </p>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>B.E.(Computer Engineering) - Sal Engineering And Technical Institute</li>
+                            <br>
+                            <li><span>2020</span><br> HSC / Science(PCM) - Sahjanand Vidhyalaya  </li>
+                            <br>
+                            <li><span>2018</span><br>SSC - Sahjanand Vidhyalaya </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <a href="https://en.wikipedia.org/wiki/Web_development">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-dev"></i>
+                    <h2>Frontend Development</h2>
+                    <a href="https://en.wikipedia.org/wiki/Front-end_web_development">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>React.js Development</h2>
+                    <a href="https://en.wikipedia.org/wiki/React_(software)">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Backend Development</h2>
+                    <p>
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Frontend_and_backend">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>Content Writing</h2>
+                    <p>
+
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Content_writing_services">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>
+
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./media/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <a href="https://netflix-home-ks.vercel.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./media/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Temperature Converter</h3>
+                        <a href="https://temperature-converter-ks.vercel.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./media/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Weather Information App</h3>
+                        <a href="https://weather-information-ks.vercel.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./media/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Movie Information Website</h3>
+                        <a href="https://movie-info-ks.vercel.app/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#portfolio" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>99999999</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-telegram"></i></a>
+
+                    </div>
+                    <a href="./media/KEVIN C SAVALIYA.pdf" download class="btn btn2">Download Resume / CV</a>
+
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @Kevin Savaliya 2023</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwGio-hQeZz3lyDh7U5-efCUwdShW1fM9j32Uj2Uvt0y4bLIAgNHk0EGQaA7EYxR0etQw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+
+
+</html>
